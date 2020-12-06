@@ -21,9 +21,11 @@ int main(void)
         {
             printf("#");
         }
+        //space between 2 pyramids
         for(gap=0;gap<2;gap++){
             printf(".");
         }
+        //left align pyramid
          for (int k = 0; k <= i; k++)
         {
             printf("#");
